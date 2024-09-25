@@ -1,0 +1,30 @@
+body{
+background-color: dimgray;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+
+
+}
+.img{
+    width: 250px;
+    height: 250px;
+}
+
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: aliceblue;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border: solid 5px cornflowerblue;
+}
